@@ -13,19 +13,19 @@ This project was created based on a Frontend Mentor [https://www.frontendmentor.
 - Responsive design basics
 
 ## 💻 The Process
-First, I reviewed the provided design and analyzed the layout to plan my workflow and decide where to start. Lately I was learning about `responsive web-design`. There are different learning paths at the Frontend Mentor platform and I started one of them which is called `Building responsive layouts`. So I'he read some informatiom from this and also wached videos made by https://www.youtube.com/@NetNinja - https://www.youtube.com/watch?v=TrLN2YId-5M&list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&index=10 . It helped me to start buiding web pages with `grid` approach. 
+First, I reviewed the provided design and analyzed the layout to plan my workflow and decide where to start. At that time, I was learning more about responsive web design. On the Frontend Mentor platform, there are different learning paths, and I started one called `Building Responsive Layouts`. As part of this learning process, I read related materials and also found tutorials by https://www.youtube.com/@NetNinja - https://www.youtube.com/watch?v=TrLN2YId-5M&list=PL4cUxeGkcC9itC4TxYMzFCfveyutyPOCY&index=10 . It helped me better understand how to build layouts using the `CSS Grid ` approach.
 
-So in this project I began by creating the HTML file and building the basic page structure. I added all the content that would be displayed on the page and wrapped it in appropriate HTML elements. I also used semantic HTML tags to improve the structure and readability of the markup.
+For this project, I began by creating the HTML file and building the basic page structure. I added all the content that would be displayed on the page and wrapped it in appropriate and semantic HTML elements to improve the structure and readability of the markup.
 
-During development, I focused on keeping the code clean and well-organized. For spacing, I mainly used `gap`'s.
+During development, I focused on keeping the code clean and well-organized. I primarily used the `gap` property for spacing, which helped maintain consistent and readable layouts.
 
-Finally, I continuously compared the page with the original design and added small improvements to make the layout and styles as close to the mockup as possible.
+Finally, I continuously compared the page with the original design and made small adjustments to ensure the layout and styles matched the mockup as closely as possible.
 
 ## 📚 What I Learned
 - How to use grid approuch to create responsive design
 - How to use mix of grid and media quires in one project to make it responsive
 
-## 🚀 How It Can Be Improved?
+## 🚀 How Can It Be Improved?
 
 - Replace generic div elements with more semantic HTML elements (e.g. <section>, <article>) to improve structure and accessibility.
 - Group related styles together and consider using CSS custom properties (variables) for colors and fonts to improve maintainability.
