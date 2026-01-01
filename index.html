@@ -3,13 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <title>Product preview card component</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>test</title>
   </head>
   <body>
-    <main>
-      <div class="image-container"></div>
-      <div class="main-information">
+    <main class="product-card">
+      <div class="product-card__visual">
+        <picture>
+          <source
+            media="(max-width: 500px)"
+            srcset="images/image-product-mobile.jpg"
+          />
+          <img src="images/image-product-desktop.jpg" />
+        </picture>
+      </div>
+      <div class="product-card__info">
         <p class="perfume">Perfume</p>
         <h1 class="main-header">Gabrielle Essence Eau De Parfum</h1>
         <p class="description">
@@ -17,15 +25,14 @@
           Polge, Perfumer-Creator for the House of CHANEL.
         </p>
         <p class="price">$149.99 <span class="old-price">$169.99</span></p>
-        <div class="btn-container">
-          <button type="button">
-            <img
-              class="card-button"
-              src="images/icon-cart.svg"
-              alt="Icon cart"
-            />Add to Cart
-          </button>
-        </div>
+
+        <button class="card-btn" type="button">
+          <img
+            class="card-button"
+            src="images/icon-cart.svg"
+            alt="Icon cart"
+          />Add to Cart
+        </button>
       </div>
     </main>
   </body>
